@@ -4,6 +4,8 @@ This project is a fabric recommendation system that helps users find eco-friendl
 
 This system is a part of the [Eco-Friendly Tribe](https://github.com/Hacxmr/Eco-Friendly-Tribe) project, which aims to promote sustainable fabric choices.
 
+![Eco-Friendly Fabric Recommendation System](https://github.com/Hacxmr/Eco-Friendly-Tribe/blob/main/fabric_recomm.jpg)
+
 ## Features
 
 - **Fabric Selection**: Users can choose a fabric from a dropdown menu to find similar fabrics.
