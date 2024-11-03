@@ -1,29 +1,27 @@
-# Fabric Recommendation System
+# Eco-Friendly Fabric Recommendation System
 
-This project is a fabric recommendation system that suggests similar fabrics based on an initial selection. Using FAISS (Facebook AI Similarity Search), it indexes the fabric data and finds items with similar attributes. The application is built using Streamlit for the frontend, allowing users to interactively choose a fabric and view similar recommendations.
+This project is a fabric recommendation system that helps users find eco-friendly and sustainable fabric options by suggesting similar fabrics based on an initial selection. The recommendation system is powered by FAISS (Facebook AI Similarity Search), and it uses Streamlit for an interactive frontend experience.
+
+This system is a part of the [Eco-Friendly Tribe](https://github.com/Hacxmr/Eco-Friendly-Tribe) project, which aims to promote sustainable fabric choices.
 
 ## Features
 
-- **Fabric Selection**: Choose a fabric from a dropdown menu to find similar fabrics.
+- **Fabric Selection**: Users can choose a fabric from a dropdown menu to find similar fabrics.
 - **Text Vectorization**: Uses TF-IDF to transform fabric titles and descriptions into numerical vectors.
-- **Label Encoding**: One-hot encoding of categorical labels.
+- **Label Encoding**: One-hot encodes categorical labels.
 - **Similarity Search**: Utilizes FAISS to find and recommend fabrics similar to the selected one.
-
-## Demo
-
-![Screenshot](screenshot.png) <!-- Optional: Add a screenshot of the app here -->
 
 ## Dataset
 
-The dataset used is [FabricFrontiers](https://huggingface.co/datasets/infinite-dataset-hub/FabricFrontiers), a CSV file containing columns like `idx`, `title`, `description`, `source`, and `label`.
+The dataset used is [FabricFrontiers](https://huggingface.co/datasets/infinite-dataset-hub/FabricFrontiers), a CSV file with columns like `idx`, `title`, `description`, `source`, and `label`.
 
 ## Installation
 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/fabric-recommendation-system.git
-    cd fabric-recommendation-system
+    git clone https://github.com/Hacxmr/Eco-Friendly-Tribe.git
+    cd Eco-Friendly-Tribe
     ```
 
 2. Install the required dependencies:
