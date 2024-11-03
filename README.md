@@ -26,10 +26,10 @@ The dataset used is [FabricFrontiers](https://huggingface.co/datasets/infinite-d
     cd fabric-recommendation-system
     ```
 
-2. Install dependencies:
+2. Install the required dependencies:
 
     ```bash
-    pip install -r requirements.txt
+    pip install streamlit pandas faiss-cpu scikit-learn numpy
     ```
 
 ## Usage
@@ -38,4 +38,3 @@ Run the Streamlit app:
 
 ```bash
 streamlit run streamlit_app.py
-
